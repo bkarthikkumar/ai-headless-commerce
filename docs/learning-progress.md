@@ -1,0 +1,29 @@
+# 6-Month Full-Stack Journey
+
+Start Date: September 7, 2026
+
+Current Day: 0
+
+## Environment
+
+- Docker: Ready
+- PHP 8.4: Ready
+- Composer: Ready
+- Node.js: Ready
+- npm: Ready
+- Git: Ready
+- MySQL 8.0: Ready
+- Redis 7: Ready
+
+## Progress
+
+### Day 0
+- [x] Docker development environment
+- [x] Development container
+- [x] PHP 8.4
+- [x] Composer
+- [x] Node.js
+- [x] MySQL
+- [x] Redis
+- [x] Docker networking
+- [x] Git repository commit
