@@ -2,7 +2,7 @@
 
 Start Date: September 7, 2026
 
-Current Day: 3
+Current Day: 4
 
 ## Environment
 
@@ -70,3 +70,83 @@ Current Day: 3
 - [x] Test CRUD API endpoints
 - [x] Understand REST API basics
 - [x] Git commit and push
+
+### Day 4 — Database-backed Product CRUD
+
+- [x] Create Product database migration
+- [x] Define product database schema
+- [x] Add `name` field
+- [x] Add unique `sku` field
+- [x] Add nullable `description`
+- [x] Add decimal `price`
+- [x] Add boolean `status`
+- [x] Run database migrations
+- [x] Verify Product database table
+- [x] Create Product Eloquent model
+- [x] Configure Product `$fillable`
+- [x] Connect Laravel API to MySQL
+- [x] Create database-backed Product controller
+- [x] Create GET `/api/dbproducts`
+- [x] Return products from MySQL
+- [x] Create POST `/api/dbproducts`
+- [x] Create `StoreProductRequest`
+- [x] Add Product creation validation
+- [x] Configure Form Request authorization
+- [x] Use validated request data
+- [x] Create GET `/api/dbproducts/{id}`
+- [x] Handle missing products with `findOrFail()`
+- [x] Create `UpdateProductRequest`
+- [x] Create PUT `/api/dbproducts/{id}`
+- [x] Validate Product updates
+- [x] Handle unique SKU during updates
+- [x] Use `Rule::unique()->ignore()` for SKU validation
+- [x] Validate price and other Product fields
+- [x] Create DELETE `/api/dbproducts/{id}`
+- [x] Verify deleted products return 404
+- [x] Verify nonexistent Product operations return 404
+- [x] Test complete database-backed CRUD flow in Postman
+- [x] Refactor controller to use validated Form Request data
+- [x] Understand Laravel Form Requests
+- [x] Understand Eloquent mass assignment
+- [x] Understand database-backed REST CRUD
+- [x] Understand advanced unique validation for updates
+- [x] Understand `findOrFail()` and automatic 404 handling
+- [ ] Git commit and push
+
+## Day 4 API Endpoints
+
+```text
+GET     /api/dbproducts
+POST    /api/dbproducts
+GET     /api/dbproducts/{id}
+PUT     /api/dbproducts/{id}
+DELETE  /api/dbproducts/{id}
+```
+
+## Day 4 Key Laravel Concepts
+
+- Eloquent Models
+- Eloquent `$fillable`
+- Database migrations
+- Form Requests
+- Request validation
+- `$request->validated()`
+- `Rule::unique()->ignore()`
+- `findOrFail()`
+- Mass assignment protection
+- RESTful CRUD
+- HTTP status codes
+- JSON API responses
+- MySQL-backed Laravel APIs
+
+## Next
+
+### Day 5
+
+- Advanced Laravel API architecture
+- Route Model Binding
+- API Resources
+- Cleaner API response structures
+- API error handling
+- Repository/Service patterns where justified
+- Prepare Laravel API for frontend integration
